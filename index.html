@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sidebar" id="mySidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <div id="htmlContent">
+            <a href="#" onclick="openContent('htmlIntro')">HTML Introduction</a>
+            <a href="#" onclick="openContent('htmlTags')">HTML Tags</a>
+        </div>
+        <div id="cssContent">
+            <a href="#" onclick="openContent('cssIntro')">CSS Introduction</a>
+            <a href="#" onclick="openContent('cssSelectors')">CSS Selectors</a>
+        </div>
+        <div id="jsContent">
+            <a href="#" onclick="openContent('jsIntro')">JavaScript Introduction</a>
+        </div>
+        <div id="reactContent">
+            <a href="#" onclick="openContent('reactIntro')">ReactJS Introduction</a>
+        </div>
+        <div id="pythonContent">
+            <a href="#" onclick="openContent('pythonIntro')">Python Introduction</a>
+        </div>
+    </div>
+    <div id="main">
+        <ul>
+            <li id="htmlItem">HTML</li>
+            <li id="cssItem">CSS</li>
+            <li id="jsItem">JavaScript</li>
+            <li id="reactItem">ReactJs</li>
+            <li id="pythonItem">Python</li>
+        </ul>
+        <h2>Click on a language above to learn more about it.</h2> 
+        <div id="mainContent" class="main-content"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
